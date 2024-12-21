@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merch - Sylwester u Kraczora</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #1a1a1a;
+            color: #d4af37;
+            text-align: center;
+        }
+
+        header {
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            padding: 100px;
+        }
+
+        .gallery-item {
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 1px solid #d4af37;
+            border-radius: 10px;
+            padding: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+
+        .gallery-item img {
+            width: 80%;
+            border-radius: 10px;
+        }
+
+        .gallery-item p {
+            margin-top: 10px;
+            font-size: 1.2em;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            color: #1a1a1a;
+            background-color: #d4af37;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #b8860b;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Merch Sylwester u Kraczora</h1>
+    </header>
+    <section class="gallery">
+        <div class="gallery-item">
+            <img src="koszulka.png" alt="Koszulka Sylwester u Kraczora">
+            <p>Koszulka Sylwester u Kraczora</p>
+        </div>
+        <div class="gallery-item">
+            <img src="Bluza.png" alt="Bluza Sylwester u Kraczora">
+            <p>Bluza z nadrukiem "Papieroska?"</p>
+        </div>
+        <div class="gallery-item">
+            <img src="czapka pawn czarna.png" alt="Czapka Wspierająca Kraczora">
+            <p>Czapka Wspierająca Kraczora</p>
+        </div>
+        <div class="gallery-item">
+            <img src="kubek.jpg" alt="Kubek Sylwester u Kraczora">
+            <p>Kubek pamiątkowy</p>
+        </div>
+    </section>
+    <a class="back-button" href="Sylwester u kraczora.html">Powrót do strony głównej</a>
+</body>
+</html>

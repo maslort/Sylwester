@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sylwester u Kraczora</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #1a1a1a;
+            color: #d4af37;
+            text-align: center;
+        }
+
+        header {
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        nav a {
+            color: #d4af37;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #b8860b;
+        }
+
+        section {
+            padding: 50px 20px;
+        }
+
+        .description {
+            max-width: 600px;
+            margin: 0 auto;
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        .cta-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            color: #1a1a1a;
+            background-color: #d4af37;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #b8860b;
+            transform: scale(1.05);
+        }
+
+        .info-box {
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 1px solid #d4af37;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px auto;
+            width: 80%;
+            max-width: 400px;
+            color: #d4af37;
+        }
+
+        .info-box p {
+            margin: 0;
+            font-size: 1em;
+            line-height: 1.5;
+        }
+
+        .info-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 20px;
+        }
+
+        .info-header {
+            margin-bottom: 20px;
+        }
+
+        .info-header h2 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: #d4af37;
+        }
+
+        .info-header p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            color: #d4af37;
+        }
+
+        .info-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #d4af37;
+        }
+
+        section#about, section#merch, section#contact {
+            padding: 30px 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sylwester u Kraczora</h1>
+        <nav>
+            <a class="button" href="about us.html">O Nas</a>
+            <a class="button" href="merch.html">Ciuchy</a>
+            <a class="button" href="contact.html">Kontakt</a>
+        </nav>
+    </header>
+    <section>
+        <p class="description">
+            Dołącz do nas na niezapomnianą noc Sylwestrową! Przygotowaliśmy dla Ciebie mnóstwo atrakcji, 
+            pyszne jedzenie i wspaniałą muzykę. To idealna okazja, aby pożegnać stary rok i powitać nowy 
+            w najlepszym towarzystwie. Nie przegap tej okazji, by świętować razem z nami!
+        </p>
+        <a class="cta-button" href="https://forms.gle/2RGAN6zUfHTF1J7N8" target="_blank">Zarejestruj się teraz</a>
+    </section>
+    <div class="info-header">
+        <h2>IMPREZA TYLKO DLA PEŁNOLETNICH +18</h2>
+    </div>
+    <div class="info-container">
+        <div>
+            <div class="info-title">Lokalizacja</div>
+            <div class="info-box">
+                <p>32-540 Trzebinia</p>
+            </div>
+        </div>
+        <div>
+            <div class="info-title">Atrakcje</div>
+            <div class="info-box">
+                <p>Bear-Pong;
+                    Zgadnij co to za wódka;
+                    Milionerzy</p>
+            </div>
+        </div>
+        <div>
+            <div class="info-title">Kobiety / Mężczyźni</div>
+            <div class="info-box">
+                <p>pełnoletnie, wolne, zajęte, ładne, mniej ładne, MILFy, small boobs,
+                    Wymień co chcesz są / Mechanicy, seksowni, umięsnieni, nerdy, cwele,
+                    wszystko czego dusza zapragnie</p>
+            </div>
+        </div>
+        <div>
+            <div class="info-title">Alkohol</div>
+            <div class="info-box">
+                <p>PIWO DUŻOOOOOOOOOOOOO
+                    WÓDKI DUŻOOOOOOOOOOOOO
+                    SZAMPANA W CHUUUUUJJJJJJJJJ</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Możesz dodać animacje lub inne funkcjonalności za pomocą JavaScript
+        document.querySelector('.cta-button').addEventListener('click', () => {
+            console.log('Przycisk kliknięty - przejście do formularza Google');
+        });
+    </script>
+</body>
+</html>
+
