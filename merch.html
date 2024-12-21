@@ -70,6 +70,20 @@
             background-color: #b8860b;
             transform: scale(1.05);
         }
+        
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 2em;
+            }
+            .gallery-item p {
+                font-size: 1em;
+            }
     </style>
 </head>
 <body>
